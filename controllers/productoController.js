@@ -17,7 +17,7 @@ exports.agregarProducto = async (req, res) => {
 exports.mostrarProductos = async (req, res) => {
   try {
     const productos = await Producto.find(req.body);
-    res.json(productos);
+    res.json({productos});
   } catch (error) {
     console.log(error);
     res.status(500).send("Hubo un error al buscar el Producto");
