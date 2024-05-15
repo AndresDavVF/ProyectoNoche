@@ -39,7 +39,6 @@ exports.mostrarUnProducto = async (req, res) => {
   }
 };
 
-
 // Actualizar Cliente
 
 exports.modificarProducto = async(req,res)=>{
