@@ -1,5 +1,5 @@
 // Exportamos nuestro modelo
-const Proveedor = require("../models/Poveedor");
+const Proveedor = require("../models/Proveedor");
 
 // funcion agregar Proveedor
 
